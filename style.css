@@ -1,0 +1,30 @@
+body {
+    background-color: rgb(255, 232, 182);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    background-color: blue;
+    flex: 1;
+    height: 100vh;
+    width: auto;
+}
+
+.rows {
+    display: flex;
+    background-color: red;
+    flex: 1;
+    height: 100px;
+    width: 100vw;
+}
+
+#box {
+    background-color: aqua;
+    flex: 1;
+    height: 100px;
+    width: 100px;
+}
