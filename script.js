@@ -34,4 +34,7 @@ function userChangedGrid(){
     makeDivGrid(userInput);
 }
 
-userChangedGrid();
+//userChangedGrid();
+
+//button opens prompt
+document.getElementById("btn").onclick = function(){userChangedGrid()};
